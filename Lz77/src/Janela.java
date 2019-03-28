@@ -27,7 +27,7 @@ public class Janela {
 			}
 
 			String janela = str.toString().substring(inicioJanela, i);
-			String buffer = str.toString().substring(i, i , lookAhead);
+			String buffer = str.toString().substring(i, i + lookAhead);
 
 			List<Object[]> rows = new ArrayList<>();
 			rows.add(new Object[] { 0, 0, str.toString().substring(i) });
